@@ -1,0 +1,24 @@
+.scrolling-container {
+    width: 100%; /* or any desired width */
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box; 
+    background-color: rgb(46, 46, 46);
+  }
+  
+  .scrolling-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: scroll 15s linear infinite;
+    color: aliceblue;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  

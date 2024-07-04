@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bbceef;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(22, 22, 22)
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+
+.maincontainer{
+    display: grid;
+    place-items: center;
+    margin-top: 20px;
+}
+
+.stocklistcontainer{
+    display: grid;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form{
+    margin-bottom: 50px;
+    margin-top: 10px;
+    #inputs {
+        margin-right: 10px;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 10px;
+    }
+    #button {
+        border-radius: 5px;
+        border: none;
+        padding: 11px;
+        background-color: blue;
+        color: aliceblue;
+        width: 120px;
+        cursor: pointer;
+        
+    }
+    #button:hover {
+        background-color: rgb(86, 86, 255);
+    }
+
+}
+
+.imagecontainer{ 
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    }
+
+ul {
+    list-style-type: none;
+    padding: 0
+}
+
+li {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px #0000001a
+}
+
+li p {
+    margin: 5px 0
+}
+
+li p:first-child {
+    font-weight: 700
+}
+
+li p:last-child {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #28a745
+}
+
+li p:last-child.loss {
+    color: #dc3545
+}
+
