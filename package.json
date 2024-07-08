@@ -1,5 +1,5 @@
 {
-  "homepage": "https://kennethteozh.github.io/cap-stone-project"
+  "homepage": "https://kennethteozh.github.io/cap-stone-project/",
   "name": "my-react-app",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
